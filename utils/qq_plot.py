@@ -24,5 +24,5 @@ def qq_plot_normal(data, title, ax):
     plot = ax.scatter(theoretical_quantiles, empirical_quantiles,
                       marker='+', zorder=2, color='blue')
     ax.set_title(title)
-    print('hello')
+
     return plot
