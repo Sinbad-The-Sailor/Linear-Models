@@ -12,9 +12,17 @@ The residual analysis was performed with graphical methods, although, more sophi
 
 <p align="center">
 <img width="1174" alt="image" src="https://user-images.githubusercontent.com/62723280/168441920-6acfe31c-ba63-4501-8ee3-91c51008a3fb.png">
-<\p>
+</p>
 
 Next, confidence and prediction bands were calculated for the regression model as shown below. The confidence interval gives a range of possible models that could be fit depending on the sample of the population. The prediction interval gives a range of possible values for a new observation. Note the difference between the two.
- <p align="center">
+<p align="center">
   <img width="696" alt="image" src="https://user-images.githubusercontent.com/62723280/168441948-2614de91-e806-4359-8e53-91305102a746.png">
-<\p>
+</p>
+
+ #### 2. Polynomial Regression
+
+Modelling the welding strenght based on the current being used for the welding process can be done with polynomial regression. In this notebook, it is done using varying degrees of polynomials. Using higher degree polynomials leads to less bias but more variance. To counteract this Tikhonov regularization is made, which ameliorates the overfitting of the polynomial to the data. 
+
+<p align="center">
+<img width="708" alt="image" src="https://user-images.githubusercontent.com/62723280/168442090-7d31bf74-ac5e-48f6-81a0-a730556a3abd.png">
+</p>
