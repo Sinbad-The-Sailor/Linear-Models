@@ -11,7 +11,10 @@ Modelling bacteria using exponential regression. This is done by transforming th
 The residual analysis was performed with graphical methods, although, more sophisticated statistical tests for normality and correlation could be useful.
 
 <p align="center">
-<img width="1174" alt="image" src="https://user-images.githubusercontent.com/62723280/168441882-08d79473-3a34-4767-966e-7c336aa2df27.png">
+<img width="1174" alt="image" src="https://user-images.githubusercontent.com/62723280/168441920-6acfe31c-ba63-4501-8ee3-91c51008a3fb.png">
 <\p>
 
-Next, confidence and prediction bands were calculated for the regression model as shown below. The confidence interval gives a range of possible models, $\mathbb{E}[Y]$, that could be fit depending on the sample of the population. The prediction interval gives a range of possible values for a new observation $Y$. Note the difference between the two.
+Next, confidence and prediction bands were calculated for the regression model as shown below. The confidence interval gives a range of possible models that could be fit depending on the sample of the population. The prediction interval gives a range of possible values for a new observation. Note the difference between the two.
+ <p align="center">
+  <img width="696" alt="image" src="https://user-images.githubusercontent.com/62723280/168441948-2614de91-e806-4359-8e53-91305102a746.png">
+<\p>
