@@ -2,7 +2,7 @@
 
 #### 1. Exponential Regression
 
-Modelling bacteria using exponential regression. This is done by transforming the exponential data into linear data using $\ln(\cdot)$, after which regular linear regression techniques can be used. Regressing based on temperature and humidity a $R^2 = 78 \%$ is obtained. An important task of regression is to check the validity of the linear regression assumptions pertaining to the residuals. 
+Modelling bacteria using exponential regression. This is done by transforming the exponential data into linear data using the natural logarithm, after which regular linear regression techniques can be used. Regressing based on temperature and humidity a R2 = 78 % is obtained. An important task of regression is to check the validity of the linear regression assumptions pertaining to the residuals. 
 
 * Residulas have constant variance
 * Residulas are independent
@@ -36,4 +36,8 @@ Also, confidence and perdiction bands were found as shown below.
 
 #### 3. Logistic Regression
 
-Classification of surviving the Titanic is made with a self-impelemnted logistic regression model. Based on features of sex, class and age, the model has a ~ 75 % accuracy. A comparision with sklearn's logistic regression and kNN classifier is made. The logistic regression results are nearly identical (sklearn regularizeses too), and the results are better than kNN. 
+Classification of surviving the Titanic is made with a self-impelemnted logistic regression model. Based on features of sex, class and age, the model has a ~75 % accuracy. A comparision with sklearn's logistic regression and kNN classifier is made. The logistic regression results are nearly identical (sklearn regularizeses too), and the results are better than kNN. 
+
+#### 4. Model Selection
+
+Modelling chemical yield of a certain industrial process was made with a forward selection modelling apporach. The forward selection algorithm iterativley adds new features out of a set of featuers (8 in this case), until the added features has no more explanatory power. This explanatory power is tested with a statistical hypothesis test. 
