@@ -16,7 +16,7 @@ The residual analysis was performed with graphical methods, although, more sophi
 
 Next, confidence and prediction bands were calculated for the regression model as shown below. The confidence interval gives a range of possible models that could be fit depending on the sample of the population. The prediction interval gives a range of possible values for a new observation. Note the difference between the two.
 <p align="center">
-  <img width="500" alt="image" src="https://user-images.githubusercontent.com/62723280/168441948-2614de91-e806-4359-8e53-91305102a746.png">
+  <img width="600" alt="image" src="https://user-images.githubusercontent.com/62723280/168441948-2614de91-e806-4359-8e53-91305102a746.png">
 </p>
 
  #### 2. Polynomial Regression
@@ -24,12 +24,12 @@ Next, confidence and prediction bands were calculated for the regression model a
 Modelling the welding strenght based on the current being used for the welding process can be done with polynomial regression. In this notebook, it is done using varying degrees of polynomials. Using higher degree polynomials leads to less bias but more variance. To counteract this Tikhonov regularization is made, which ameliorates the overfitting of the polynomial to the data. 
 
 <p align="center">
-<img width="374" alt="image" src="https://user-images.githubusercontent.com/62723280/168442200-d882ea9b-6e83-4304-a019-bdccdc6e24d1.png">
-<img width="374" alt="image" src="https://user-images.githubusercontent.com/62723280/168442211-fc9c1b35-8804-40c4-84cf-9a75b5ec05ab.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/62723280/168442268-daa94664-8ac2-425a-b51f-f38e2722f08a.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/62723280/168442211-fc9c1b35-8804-40c4-84cf-9a75b5ec05ab.png">
 </p>
 
 Also, confidence and perdiction bands were found as shown below.
 
 <p align="center">
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/62723280/168442090-7d31bf74-ac5e-48f6-81a0-a730556a3abd.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/62723280/168442090-7d31bf74-ac5e-48f6-81a0-a730556a3abd.png">
 </p>
