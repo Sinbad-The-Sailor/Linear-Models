@@ -33,3 +33,7 @@ Also, confidence and perdiction bands were found as shown below.
 <p align="center">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/62723280/168442090-7d31bf74-ac5e-48f6-81a0-a730556a3abd.png">
 </p>
+
+#### 3. Logistic Regression
+
+Classification of surviving the Titanic is made with a self-impelemnted logistic regression model. Based on features of sex, class and age, the model has a ~ 75 % accuracy. A comparision with sklearn's logistic regression and kNN classifier is made. The logistic regression results are nearly identical (sklearn regularizeses too), and the results are better than kNN. 
